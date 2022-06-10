@@ -15,6 +15,29 @@ div {
     align-content: center;
 }
 
+section {
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+}
+
+article {
+    text-align: center;
+}
+
+.main-flex {
+    display: flex;
+}
+
+.galeria-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
 .degradetexto{
     background-image: linear-gradient(to bottom right, red, green, yellow);
 }
