@@ -26,3 +26,18 @@ div {
 .agrandar:hover {
     transform: scale(1.8, 1.8);
 }
+
+.animaciontexto{
+    animation-name: texto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite ;
+}
+
+@keyframes texto{
+    from/*inicio*/{
+transform: translate(1000px)
+    }
+    to/*final*/{
+transform: translate(0);
+    }
+}
